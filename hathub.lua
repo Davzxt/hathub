@@ -373,7 +373,7 @@ local movers = {}
  local tog = true
  local move = false
 local Player = game:GetService("Players").LocalPlayer
-local Character = game.Workspace.4x2008
+local Character = Player.Character
 local mov = {};
 local mov2 = {};
 
