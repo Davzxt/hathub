@@ -8217,8 +8217,8 @@ local y = -0.587   --Edit Position for head up and down
 local z = -3.234 --Edit Position for head x3
 
 local Hats = {pp   = Character:WaitForChild("Pal Hair"),
-             ball1   = Character:WaitForChild("InternationalFedora"),
-             ball2   = Character:WaitForChild("MeshPartAccessory"),
+             ball1   = Character:WaitForChild("International Fedora"),
+             ball2   = Character:WaitForChild("MessyHair"),
 }
 
 --Dont touch below
@@ -9638,10 +9638,10 @@ game.Players.LocalPlayer.Character["Left Leg"].Transparency = 1
  
  wait(0.5)
 local LocalPlayer = game.Players.LocalPlayer;local Character = LocalPlayer.Character;local Mouse = LocalPlayer:GetMouse()
-Character["Pink Hair"].Name = "Brick1";Character["Bedhead"].Name = "Brick2"
-Character["LongHairHeadBand Black"].Name = "Brick3";Character["Hat1"].Name = "Brick4"
-Character["Kate Hair"].Name = "Brick5";Character["BakonHead"].Name = "Brick6"
-Character["FireMohawk"].Name = "Brick7";Character["No Speak Monkey"].Name = "Brick8"
+Character["Pink Hair"].Name = "Brick1";Character["Robloxclassicred"].Name = "Brick2"
+Character["RCap"].Name = "Brick3";Character["Hat1"].Name = "Brick4"
+Character["Kate Hair"].Name = "Brick5";Character["International Fedora"].Name = "Brick6"
+Character["MessyHair"].Name = "Brick7";Character["RedBeanieWithHair"].Name = "Brick8"
 Character["Pal Hair"].Name = "Brick9";Character["LavanderHair"].Name = "Brick10"
 local Head = Character["Head"];local Torso = Character["Torso"]
 local RArm = Character["Right Arm"];local LArm = Character["Left Arm"]
@@ -9652,15 +9652,6 @@ local Hat5 = Character["Brick5"];local Hat6 = Character["Brick6"]
 local Hat7 = Character["Brick7"];local Hat8 = Character["Brick8"]
 local Hat9 = Character["Brick9"];local Hat10 = Character["Brick10"]
 
-Hat1.Handle.Mesh:Destroy()
-Hat2.Handle.Mesh:Destroy()
-Hat3.Handle.Mesh:Destroy()
-Hat4.Handle.Mesh:Destroy()
-Hat5.Handle.Mesh:Destroy()
-Hat7.Handle.Mesh:Destroy()
-Hat8.Handle.Mesh:Destroy()
-Hat9.Handle.Mesh:Destroy()
-Hat10.Handle.Mesh:Destroy()
 
 
 --LostDevelopers Alignment Function
@@ -9693,9 +9684,7 @@ Character.Humanoid.HipHeight = 0
 function Weld(Part)
 Part.Handle.AccessoryWeld:Destroy()
 end
-function Mesh(Part)
-Part.Handle.SpecialMesh:Destroy()
-end
+
 Weld(Hat1);Weld(Hat2);Weld(Hat3)
 Weld(Hat4);Weld(Hat5);Weld(Hat6)
 Weld(Hat7);Weld(Hat8);Weld(Hat9)
@@ -9783,8 +9772,8 @@ game.Players.LocalPlayer.Character["Left Leg"].Transparency = 1
 local LocalPlayer = game.Players.LocalPlayer;local Character = LocalPlayer.Character;local Mouse = LocalPlayer:GetMouse()
 Character["LavanderHair"].Name = "Brick1";Character["Kate Hair"].Name = "Brick2"
 Character["Hat1"].Name = "Brick3";Character["Pal Hair"].Name = "Brick4"
-Character["LongHairHeadBand Black"].Name = "Brick5";Character["Trash Can"].Name = "Brick6"
-Character["Trash Can Lid"].Name = "Brick7"
+Character["Pink Hair"].Name = "Brick5";Character["RCap"].Name = "Brick6"
+Character["MessyHair"].Name = "Brick7"
 local Head = Character["Head"];local Torso = Character["Torso"]
 local RArm = Character["Right Arm"];local LArm = Character["Left Arm"]
 local RLeg = Character["Right Leg"];local LLeg = Character["Left Leg"]
@@ -9793,11 +9782,7 @@ local Hat3 = Character["Brick3"];local Hat4 = Character["Brick4"]
 local Hat5 = Character["Brick5"];local Hat6 = Character["Brick6"]
 local Hat7 = Character["Brick7"]
 
-Hat1.Handle.Mesh:Destroy()
-Hat2.Handle.Mesh:Destroy()
-Hat3.Handle.Mesh:Destroy()
-Hat4.Handle.Mesh:Destroy()
-Hat5.Handle.Mesh:Destroy()
+
 
 --LostDevelopers Alignment Function
 function Align(Part1,Part0,Position,Angle)
@@ -9828,9 +9813,6 @@ end
 Character.Humanoid.HipHeight = 0
 function Weld(Part)
 Part.Handle.AccessoryWeld:Destroy()
-end
-function Mesh(Part)
-Part.Handle.SpecialMesh:Destroy()
 end
 Weld(Hat1);Weld(Hat2);Weld(Hat3)
 Weld(Hat4);Weld(Hat5);Weld(Hat6)
@@ -9911,7 +9893,7 @@ game.Players.LocalPlayer.Character["Left Leg"].Transparency = 1
  
  wait(0.5)
 local LocalPlayer = game.Players.LocalPlayer;local Character = LocalPlayer.Character;local Mouse = LocalPlayer:GetMouse()
-Character["SpringPixie"].Name = "Brick1"
+Character["RCap"].Name = "Brick1"
 local Head = Character["Head"];local Torso = Character["Torso"]
 local RArm = Character["Right Arm"];local LArm = Character["Left Arm"]
 local RLeg = Character["Right Leg"];local LLeg = Character["Left Leg"]
@@ -9947,9 +9929,7 @@ Character.Humanoid.HipHeight = 0
 function Weld(Part)
 Part.Handle.AccessoryWeld:Destroy()
 end
-function Mesh(Part)
-Part.Handle.SpecialMesh:Destroy()
-end
+
 Weld(Hat1)
 --[[ Alignment and Measurements ]]--
 Align(Hat1.Handle, Torso, Vector3.new(0,0,0.1), Vector3.new(0,0,0))
@@ -10024,8 +10004,8 @@ game.Players.LocalPlayer.Character["Left Leg"].Transparency = 1
  wait(0.5)
 local LocalPlayer = game.Players.LocalPlayer;local Character = LocalPlayer.Character;local Mouse = LocalPlayer:GetMouse()
 Character["LavanderHair"].Name = "Brick1";Character["Pal Hair"].Name = "Brick2"
-Character["LongHairHeadBand Black"].Name = "Brick3";Character["Hat1"].Name = "Brick4"
-Character["Kate Hair"].Name = "Brick5";Character["PlushNoob"].Name = "Brick6"
+Character["MessyHair"].Name = "Brick3";Character["Hat1"].Name = "Brick4"
+Character["Kate Hair"].Name = "Brick5";Character["Pink Hair"].Name = "Brick6"
 local Head = Character["Head"];local Torso = Character["Torso"]
 local RArm = Character["Right Arm"];local LArm = Character["Left Arm"]
 local RLeg = Character["Right Leg"];local LLeg = Character["Left Leg"]
@@ -10033,11 +10013,6 @@ local Hat1 = Character["Brick1"];local Hat2 = Character["Brick2"]
 local Hat3 = Character["Brick3"];local Hat4 = Character["Brick4"]
 local Hat5 = Character["Brick5"];local Hat6 = Character["Brick6"]
 
-Hat1.Handle.Mesh:Destroy()
-Hat2.Handle.Mesh:Destroy()
-Hat3.Handle.Mesh:Destroy()
-Hat4.Handle.Mesh:Destroy()
-Hat5.Handle.Mesh:Destroy()
 
 --LostDevelopers Alignment Function
 function Align(Part1,Part0,Position,Angle)
@@ -10069,9 +10044,7 @@ Character.Humanoid.HipHeight = 0
 function Weld(Part)
 Part.Handle.AccessoryWeld:Destroy()
 end
-function Mesh(Part)
-Part.Handle.SpecialMesh:Destroy()
-end
+
 Weld(Hat1);Weld(Hat2);Weld(Hat3)
 Weld(Hat4);Weld(Hat5);Weld(Hat6)
 --[[ Alignment and Measurements ]]--
@@ -10150,9 +10123,9 @@ game.Players.LocalPlayer.Character["Left Leg"].Transparency = 1
  wait(0.5)
 local LocalPlayer = game.Players.LocalPlayer;local Character = LocalPlayer.Character;local Mouse = LocalPlayer:GetMouse()
 Character["LavanderHair"].Name = "Brick1";Character["Pal Hair"].Name = "Brick2"
-Character["LongHairHeadBand Black"].Name = "Brick3";Character["Hat1"].Name = "Brick4"
-Character["Kate Hair"].Name = "Brick5";Character["helmet"].Name = "Brick6"
-Character["danielAccessory"].Name = "Brick7"
+Character["RCap"].Name = "Brick3";Character["Hat1"].Name = "Brick4"
+Character["Kate Hair"].Name = "Brick5";Character["MessyHair"].Name = "Brick6"
+Character["Pink Hair"].Name = "Brick7"
 local Head = Character["Head"];local Torso = Character["Torso"]
 local RArm = Character["Right Arm"];local LArm = Character["Left Arm"]
 local RLeg = Character["Right Leg"];local LLeg = Character["Left Leg"]
@@ -10161,11 +10134,6 @@ local Hat3 = Character["Brick3"];local Hat4 = Character["Brick4"]
 local Hat5 = Character["Brick5"];local Hat6 = Character["Brick6"]
 local Hat7 = Character["Brick7"]
 
-Hat1.Handle.Mesh:Destroy()
-Hat2.Handle.Mesh:Destroy()
-Hat3.Handle.Mesh:Destroy()
-Hat4.Handle.Mesh:Destroy()
-Hat5.Handle.Mesh:Destroy()
 
 --LostDevelopers Alignment Function
 function Align(Part1,Part0,Position,Angle)
@@ -10197,9 +10165,7 @@ Character.Humanoid.HipHeight = 0
 function Weld(Part)
 Part.Handle.AccessoryWeld:Destroy()
 end
-function Mesh(Part)
-Part.Handle.SpecialMesh:Destroy()
-end
+
 Weld(Hat1);Weld(Hat2);Weld(Hat3)
 Weld(Hat4);Weld(Hat5);Weld(Hat6)
 Weld(Hat7)
